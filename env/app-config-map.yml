@@ -1,0 +1,19 @@
+app:
+  name: mygram
+  environment: development
+  host: 0.0.0.0
+  debug: true
+  port: 8080
+  protocol: http
+postgre:
+  name: "mygram"
+  user: "postgres"
+  ps: "password"
+  port: 3306
+  host: "localhost"
+slaveDB:
+  name: "mygram"
+  user: "postgres"
+  ps: "password"
+  port: 3306
+  host: "localhost"
